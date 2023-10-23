@@ -1,0 +1,21 @@
+GET http://localhost:2375/players/
+
+###
+GET http://localhost:2375/players/2/
+
+### 
+//api3 
+PUT http://localhost:2375/players/2/
+
+###
+GET http://localhost:2375/matches/18/
+
+### 
+//api5
+GET http://localhost:2375/players/4/matches
+###
+//api6 
+GET http://localhost:2375/matches/3/players
+###
+//api7
+GET http://localhost:2375/players/1/playerScores
